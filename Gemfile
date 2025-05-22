@@ -8,3 +8,4 @@ gem 'telegram-bot-ruby'
 gem "dotenv-rails"
 gem 'dotenv'
 gem 'pry'
+gem 'rubocop'

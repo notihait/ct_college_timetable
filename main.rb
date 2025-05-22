@@ -1,13 +1,16 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
+
+require 'telegram/bot'
+require 'dotenv'
+Dotenv.load
+
 require_relative 'core/telegram_bot'
-require 'telegram/bot' # если ты ещё не подключил библиотеку
-require_relative 'core'
 require_relative 'core/dispatcher'
+require_relative 'db/config'  # обязательно, чтобы подключить базу
 
 puts "Token: #{ENV['TELEGRAM_TOKEN'].inspect}"
 
-Core.require_source
 if ARGV.include? 'console'
   binding.pry
 else

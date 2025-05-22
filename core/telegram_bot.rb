@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module Core
     class TelegramBot
       attr_reader :bot
@@ -10,12 +8,25 @@ module Core
       end
   
       def run
+        puts "Бот запускается..."
         @bot.run do |bot|
+          puts "Бот запущен!"
           @dispatcher = Dispatcher.new(bot)
-          bot.listen do |message|
-            @dispatcher.process_message(message)
+      
+          bot.listen do |update|
+            if update.is_a?(Telegram::Bot::Types::Message)
+              @dispatcher.process_message(update)
+            elsif update.is_a?(Telegram::Bot::Types::CallbackQuery)
+              @dispatcher.process_callback_query(update)
+            else
+              # Можно логировать неизвестные обновления
+              puts "Unknown update type: #{update.class}"
+            end
           end
+          
         end
       end
+      
     end
   end
+  

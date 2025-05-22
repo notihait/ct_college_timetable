@@ -6,3 +6,5 @@ gem "rake"
 gem "standalone_migrations"
 gem 'telegram-bot-ruby'
 gem "dotenv-rails"
+gem 'dotenv'
+gem 'pry'

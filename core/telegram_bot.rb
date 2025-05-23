@@ -19,7 +19,7 @@ module Core
             elsif update.is_a?(Telegram::Bot::Types::CallbackQuery)
               @dispatcher.process_callback_query(update)
             else
-              # Можно логировать неизвестные обновления
+              # логи
               puts "Unknown update type: #{update.class}"
             end
           end

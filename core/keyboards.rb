@@ -29,14 +29,22 @@ module Core
 
     def self.admin_menu_keyboard
       Telegram::Bot::Types::ReplyKeyboardMarkup.new(
-        keyboard: [
-          ['Список групп', 'Добавить группу'],
-          ['Обновить расписание'],
-          ['Назад']
-        ],
-        resize_keyboard: true,
-        one_time_keyboard: false
-      )
+  keyboard: [
+    [
+      Telegram::Bot::Types::KeyboardButton.new(text: 'Список групп'),
+      Telegram::Bot::Types::KeyboardButton.new(text: 'Добавить группу')
+    ],
+    [
+      Telegram::Bot::Types::KeyboardButton.new(text: 'Обновить расписание')
+    ],
+    [
+      Telegram::Bot::Types::KeyboardButton.new(text: 'Назад')
+    ]
+  ],
+  resize_keyboard: true,
+  one_time_keyboard: true
+)
+
     end
   end
 end

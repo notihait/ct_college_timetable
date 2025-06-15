@@ -9,3 +9,5 @@ gem "dotenv-rails"
 gem 'dotenv'
 gem 'pry'
 gem 'rubocop'
+gem "creek"
+gem 'pry'

@@ -23,7 +23,7 @@ class Dispatcher
 
     @bot.api.send_message(
       chat_id: chat_id,
-      text: "Главное меню:",
+      text: "Головне меню:",
       reply_markup: keyboard
     )
   end
@@ -33,7 +33,7 @@ class Dispatcher
 
     @bot.api.send_message(
       chat_id: chat_id,
-      text: "Админ-панель:",
+      text: "Адмін-панель:",
       reply_markup: keyboard
     )
   end
@@ -61,24 +61,33 @@ class Dispatcher
           first_name: message.from.first_name
         )
       end
-  
-    when 'Выбрать группу'
+    
+      show_main_menu(chat_id, message.from.id)
+
+    when 'Обрати групу'
       groups = Group.all
       keyboard = Core::Keyboards.group_selection_keyboard(groups)
       @bot.api.send_message(
         chat_id: message.chat.id,
-        text: "Выберите группу:",
+        text: "Оберіть групу:",
         reply_markup: keyboard
       )
+
+    when 'Мій розклад'
+      @schedule_controller.send_schedule(message.chat.id, message.from.id)
+
+    when 'Хто я?'
+      user = User.find_by(telegram_id: message.from.id)
+      @bot.api.send_message(chat_id: message.chat.id, text: "Вы: #{user.inspect}")
   
-    when 'Админ-панель'
+    when 'Адмін-панель'
       if admin?(message.from.id)
         show_admin_menu(message.chat.id, message.from.id)
       else
         @bot.api.send_message(chat_id: message.chat.id, text: "У вас нет доступа.")
       end
     
-    when 'Добавить группу'
+    when 'Додати групу'
       if admin?(message.from.id)
         puts "Запускаем создание группы для пользователя #{message.from.id}"
         @admin_controller.start_group_creation(message)
@@ -86,13 +95,18 @@ class Dispatcher
         @bot.api.send_message(chat_id: message.chat.id, text: "У вас нет доступа.")
       end
     
-    when 'Список групп'
+    when 'Список груп'
       @admin_controller.list_groups(message)
-  
+
+
+    when 'Оновити розклад'
+        @bot.api.send_message(chat_id: message.chat.id, text: "Відправте файл з розкладом на навчальний рік:")   
+        update_schedule(message.chat.id, message.from.id)
+        
     else
       show_main_menu(message.chat.id, message.from.id)
-    end
   end
+end
   
 
   def process_callback_query(update)
@@ -107,7 +121,7 @@ class Dispatcher
       group_id = $1.to_i
       group = Group.find_by(id: group_id)
       if group
-        @bot.api.send_message(chat_id: chat_id, text: "Вы выбрали группу #{group.group_name}")
+        @bot.api.send_message(chat_id: chat_id, text: "Вы обрали групу #{group.group_name}")
       else
         @bot.api.send_message(chat_id: chat_id, text: "Группа не найдена.")
       end

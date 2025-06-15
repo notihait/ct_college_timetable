@@ -10,4 +10,5 @@ gem 'dotenv'
 gem 'pry'
 gem 'rubocop'
 gem "creek"
-gem 'pry'
+gem 'json'
+gem 'open-uri'

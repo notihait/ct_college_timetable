@@ -11,9 +11,10 @@ require_relative '../controllers/admin_controller'
 class Dispatcher
   include AdminChecker
 
-  def initialize(bot)
+  def initialize(bot, token)
     @bot = bot
-    @schedule_controller = ScheduleController.new(bot)
+    @token = token
+    @schedule_controller = ScheduleController.new(bot, token)
     @admin_controller = AdminController.new(bot)
   end
 
@@ -40,17 +41,19 @@ class Dispatcher
 
   def process_message(message)
     puts "Обработка: #{message.text}"
-  
-    user = User.find_by(telegram_id: message.from.id)
-  
-    # Обработка состояния — при ожидании названия группы, передаем в админ контроллер
-    if user&.state == 'awaiting_group_name'
-      @admin_controller.handle_group_creation(message)
 
-    puts "Пользователь #{user.telegram_id} в режиме ожидания названия группы"
+    user = User.find_by(telegram_id: message.from.id)
+
+    if user&.state == 'awaiting_schedule_file'
+    @schedule_controller.handle_schedule_upload(message, user)
+    return
+  end
+
+    if user&.state == 'awaiting_schedule_upload'
+      @schedule_controller.handle_schedule_upload(message, user)
       return
     end
-  
+
     case message.text
     when '/start'
       chat_id = message.chat.id
@@ -61,7 +64,6 @@ class Dispatcher
           first_name: message.from.first_name
         )
       end
-    
       show_main_menu(chat_id, message.from.id)
 
     when 'Обрати групу'
@@ -74,40 +76,45 @@ class Dispatcher
       )
 
     when 'Мій розклад'
-      @schedule_controller.send_schedule(message.chat.id, message.from.id)
+      ScheduleController.new(@bot, @token).send_schedule(message.chat.id, message.from.id)
+      user.update(state: nil)
+
+
 
     when 'Хто я?'
       user = User.find_by(telegram_id: message.from.id)
-      @bot.api.send_message(chat_id: message.chat.id, text: "Вы: #{user.inspect}")
-  
+      @bot.api.send_message(chat_id: message.chat.id, text: "Ви: #{user.inspect}")
+
     when 'Адмін-панель'
       if admin?(message.from.id)
         show_admin_menu(message.chat.id, message.from.id)
       else
-        @bot.api.send_message(chat_id: message.chat.id, text: "У вас нет доступа.")
+        @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
       end
-    
+
     when 'Додати групу'
       if admin?(message.from.id)
-        puts "Запускаем создание группы для пользователя #{message.from.id}"
+        puts "Запускаємо створення групи для користувача #{message.from.id}"
         @admin_controller.start_group_creation(message)
       else
-        @bot.api.send_message(chat_id: message.chat.id, text: "У вас нет доступа.")
+        @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
       end
-    
+
     when 'Список груп'
       @admin_controller.list_groups(message)
 
-
     when 'Оновити розклад'
-        @bot.api.send_message(chat_id: message.chat.id, text: "Відправте файл з розкладом на навчальний рік:")   
-        update_schedule(message.chat.id, message.from.id)
-        
+      if admin?(message.from.id)
+        user.update(state: 'awaiting_schedule_upload')
+        @bot.api.send_message(chat_id: message.chat.id, text: "Будь ласка, надішліть файл у форматі .xlsx.")
+      else
+        @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
+      end
+
     else
       show_main_menu(message.chat.id, message.from.id)
+    end
   end
-end
-  
 
   def process_callback_query(update)
     puts "CallbackQuery ID: #{update.id.inspect}"
@@ -121,13 +128,13 @@ end
       group_id = $1.to_i
       group = Group.find_by(id: group_id)
       if group
-        @bot.api.send_message(chat_id: chat_id, text: "Вы обрали групу #{group.group_name}")
+        @bot.api.send_message(chat_id: chat_id, text: "Ви обрали групу #{group.group_name}")
       else
-        @bot.api.send_message(chat_id: chat_id, text: "Группа не найдена.")
+        @bot.api.send_message(chat_id: chat_id, text: "Групу не знайдено.")
       end
 
     else
-      @bot.api.send_message(chat_id: chat_id, text: "Неизвестный callback: #{data}")
+      @bot.api.send_message(chat_id: chat_id, text: "Невідомий callback: #{data}")
     end
 
     @bot.api.answer_callback_query(callback_query_id: update.id)

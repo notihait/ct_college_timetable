@@ -11,7 +11,7 @@ module Core
         puts "Бот запускается..."
         @bot.run do |bot|
           puts "Бот запущен!"
-          @dispatcher = Dispatcher.new(bot)
+          @dispatcher = Dispatcher.new(bot, @token)
       
           bot.listen do |update|
             if update.is_a?(Telegram::Bot::Types::Message)

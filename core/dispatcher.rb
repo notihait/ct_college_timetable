@@ -6,7 +6,9 @@ require_relative '../models/teacher'
 require_relative '../core/keyboards'
 require_relative '../lib/admin_checker'
 require_relative '../controllers/schedule_controller'
+require_relative '../controllers/update_schedule_controller'
 require_relative '../controllers/admin_controller'
+require_relative '../controllers/day_of_week_controller'
 
 class Dispatcher
   include AdminChecker
@@ -16,6 +18,7 @@ class Dispatcher
     @token = token
     @schedule_controller = ScheduleController.new(bot, token)
     @admin_controller = AdminController.new(bot)
+    @day_of_week_controller = DayOfWeekController.new
   end
 
   def show_main_menu(chat_id, telegram_id)
@@ -44,12 +47,7 @@ class Dispatcher
 
     user = User.find_by(telegram_id: message.from.id)
 
-    if user&.state == 'awaiting_schedule_file'
-    @schedule_controller.handle_schedule_upload(message, user)
-    return
-  end
-
-    if user&.state == 'awaiting_schedule_upload'
+    if user&.state == 'awaiting_schedule_file' || user&.state == 'awaiting_schedule_upload'
       @schedule_controller.handle_schedule_upload(message, user)
       return
     end
@@ -76,13 +74,14 @@ class Dispatcher
       )
 
     when 'Мій розклад'
-      ScheduleController.new(@bot, @token).send_schedule(message.chat.id, message.from.id)
-      user.update(state: nil)
-
-
+      @bot.api.send_message(
+        chat_id: message.chat.id,
+        text: "Оберіть день тижня:",
+        reply_markup: Core::Keyboards.days_keyboard
+      )
+      user.update(state: nil) if user
 
     when 'Хто я?'
-      user = User.find_by(telegram_id: message.from.id)
       @bot.api.send_message(chat_id: message.chat.id, text: "Ви: #{user.inspect}")
 
     when 'Адмін-панель'
@@ -105,7 +104,7 @@ class Dispatcher
 
     when 'Оновити розклад'
       if admin?(message.from.id)
-        user.update(state: 'awaiting_schedule_upload')
+        user.update(state: 'awaiting_schedule_upload') if user
         @bot.api.send_message(chat_id: message.chat.id, text: "Будь ласка, надішліть файл у форматі .xlsx.")
       else
         @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
@@ -117,26 +116,46 @@ class Dispatcher
   end
 
   def process_callback_query(update)
+    @bot.api.answer_callback_query(callback_query_id: update.id)
     puts "CallbackQuery ID: #{update.id.inspect}"
     puts "CallbackQuery data: #{update.data.inspect}"
+
     data = update.data
     chat_id = update.message.chat.id
     telegram_id = update.from.id
+    user = User.find_by(telegram_id: telegram_id)
+
 
     case data
     when /^group_(\d+)$/
       group_id = $1.to_i
       group = Group.find_by(id: group_id)
       if group
+        user.update(group_id: group_id) if user
         @bot.api.send_message(chat_id: chat_id, text: "Ви обрали групу #{group.group_name}")
       else
         @bot.api.send_message(chat_id: chat_id, text: "Групу не знайдено.")
       end
 
+    when /^day_(\d+)$/
+      day_number = $1.to_i
+
+      unless user && user.group_id
+        @bot.api.send_message(chat_id: chat_id, text: "Будь ласка, спочатку оберіть групу командою 'Обрати групу'.")
+        return
+      end
+
+      group = Group.find_by(id: user.group_id)
+      unless group
+        @bot.api.send_message(chat_id: chat_id, text: "Групу не знайдено, будь ласка, оберіть групу знову.")
+        return
+      end
+
+      schedule_text = @day_of_week_controller.get_schedule_for_day(day_number, group.group_name)
+      @bot.api.send_message(chat_id: chat_id, text: schedule_text)
+
     else
       @bot.api.send_message(chat_id: chat_id, text: "Невідомий callback: #{data}")
     end
-
-    @bot.api.answer_callback_query(callback_query_id: update.id)
   end
 end

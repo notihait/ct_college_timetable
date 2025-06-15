@@ -48,6 +48,20 @@ module Core
           one_time_keyboard: true
         )
       end
+
+      def days_keyboard
+          buttons = [
+            Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Понеділок', callback_data: 'day_1'),
+            Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Вівторок', callback_data: 'day_2'),
+            Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Середа', callback_data: 'day_3'),
+            Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Четвер', callback_data: 'day_4'),
+            Telegram::Bot::Types::InlineKeyboardButton.new(text: "П'ятниця", callback_data: 'day_5'),
+          ]
+
+          Telegram::Bot::Types::InlineKeyboardMarkup.new(
+            inline_keyboard: buttons.each_slice(3).to_a
+          )
+      end
     end
   end
 end

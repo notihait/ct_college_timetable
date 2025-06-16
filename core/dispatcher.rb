@@ -9,6 +9,8 @@ require_relative '../controllers/schedule_controller'
 require_relative '../controllers/update_schedule_controller'
 require_relative '../controllers/admin_controller'
 require_relative '../controllers/day_of_week_controller'
+require_relative '../controllers/group_import_controller'
+
 
 class Dispatcher
   include AdminChecker
@@ -98,9 +100,28 @@ class Dispatcher
       else
         @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
       end
+    
+    when 'Імпорт груп з таблиці'
+      if admin?(message.from.id)
+        controller = GroupImportController.new
+        count = controller.import_groups
+        @bot.api.send_message(chat_id: message.chat.id, text: "Імпортовано #{count} груп.")
+      else
+        @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
+      end
 
+      
     when 'Список груп'
       @admin_controller.list_groups(message)
+
+    when 'Додати заміни'
+  if admin?(message.from.id)
+    user.update(state: 'awaiting_changes_upload') if user
+    @bot.api.send_message(chat_id: message.chat.id, text: "Будь ласка, надішліть файл із замінами у форматі .docx.")
+  else
+    @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
+  end
+
 
     when 'Оновити розклад'
       if admin?(message.from.id)

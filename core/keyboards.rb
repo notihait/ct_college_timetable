@@ -41,8 +41,8 @@ module Core
         Telegram::Bot::Types::ReplyKeyboardMarkup.new(
           keyboard: [
             [{ text: 'Список груп' }, { text: 'Додати групу' }],
-            [{ text: 'Оновити розклад' }],
-            [{ text: 'Назад' }]
+            [{ text: 'Імпорт груп з таблиці' }], [{ text: 'Оновити розклад' }],
+            [{ text: 'Додати заміни' }], [{ text: 'Назад' }]
           ],
           resize_keyboard: true,
           one_time_keyboard: true

@@ -12,3 +12,4 @@ gem 'rubocop'
 gem "creek"
 gem 'json'
 gem 'open-uri'
+gem 'docx'

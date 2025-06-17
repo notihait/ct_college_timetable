@@ -7,7 +7,5 @@ class UpdateScheduleConroller
         user = User.find_by(telegram_id: message.from.id)
 
         user.update(state: 'waiting_for_schedule_update')
-
-
     end
 end

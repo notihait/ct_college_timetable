@@ -10,7 +10,7 @@ class DayOfWeekController
     5 => "П'ятниця"
   }
 
-  def initialize(timetable_path = './storage/timetable.json')
+  def initialize(timetable_path = './storage/merged_schedule.json')
     @timetable_path = timetable_path
   end
 
@@ -28,7 +28,7 @@ class DayOfWeekController
     day_schedule["lessons"].each do |lesson|
       lesson_number = lesson["lesson"]
       lesson["subjects"].each do |subject|
-        message += "Урок #{lesson_number}: #{subject['subject']} (#{subject['teacher']})\n"
+        message += "Пара #{lesson_number}: #{subject['subject']} (#{subject['teacher']})\n"
       end
     end
 

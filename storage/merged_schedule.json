@@ -1,0 +1,5690 @@
+{
+  "ПТ/ГМ-114": {
+    "column": 3,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": "Лола Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Українська література",
+                "teacher": "Костюкова Ж. В."
+              },
+              {
+                "subject": "Історія України",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Георафія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Громадянська освіта",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Хімія",
+                "teacher": "Кофанова В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Зарубіжна література",
+                "teacher": "Суворова Н. О."
+              },
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Математика",
+                "teacher": "Чабак К. С."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Біологія і екологія",
+                "teacher": "Кравченко Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Мірошник С. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Захист України",
+                "teacher": "Пасечник І. І."
+              },
+              {
+                "subject": "Громадянська освіта",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Хімія",
+                "teacher": "Кофанова В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Посвистак А. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Всесвітня історія",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Інформатика",
+                "teacher": "Надьон Л. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Біологія і екологія",
+                "teacher": "Кравченко Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Захист України",
+                "teacher": "Пасечник І. І."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "ПТ/ГМ-114",
+                "teacher": "ПТ/ГМ-114"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ТО/МІТ-114": {
+    "column": 5,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Громадянська освіта",
+                "teacher": "Сенкевич Н. В."
+              },
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Всесвітня історія",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Географія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Хімія",
+                "teacher": "Кофанова В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": "Фесенко І. А."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Інформатика",
+                "teacher": "Залевська А. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Біологія і екологія",
+                "teacher": "Кравченко Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Посвистак А. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Захист України",
+                "teacher": "Пасечник І. І."
+              },
+              {
+                "subject": "Історія України",
+                "teacher": "Полупанов Д. С."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Хімія",
+                "teacher": "Кофанова В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Біологія і екологія",
+                "teacher": "Кравченко Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Зарубіжна література",
+                "teacher": "Суворова Н. О."
+              },
+              {
+                "subject": "Українська література",
+                "teacher": "Суворова Н. О."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Громадянська освіта",
+                "teacher": "Сенкевич Н. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Математика",
+                "teacher": "Чабак К. С."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Захист України",
+                "teacher": "Пасечник І. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Мірошник С. В."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "ТО/МІТ-114",
+                "teacher": "ТО/МІТ-114"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ОПК-114": {
+    "column": 7,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": "Лола Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Біологія і екологія",
+                "teacher": "Кравченко Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Хімія",
+                "teacher": "Завора Я. А."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Географія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Захист України",
+                "teacher": "Леженін О. М."
+              },
+              {
+                "subject": "Українська література",
+                "teacher": "Суворова Н. О."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Історія України",
+                "teacher": "Леженін О. М."
+              },
+              {
+                "subject": "Громадянська освіта",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Хімія",
+                "teacher": "Завора Я. А."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Всесвітня історія",
+                "teacher": "Полупанов Д. С."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Біологія і екологія",
+                "teacher": "Кравченко Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Громадянська освіта",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Захист України",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Математика",
+                "teacher": "Чабак К. С."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Зарубіжна література",
+                "teacher": "Суворова Н. О."
+              },
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Посвистак А. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Лапіна В. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Булгакова Г. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "-",
+                "teacher": "ОПК-114"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ОПК-124": {
+    "column": 9,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Географія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": " Лола Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Біологія і екологія",
+                "teacher": "Кравченко Т. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Математика",
+                "teacher": "Владимирова О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Українська література",
+                "teacher": "Фесенко І. А."
+              },
+              {
+                "subject": "Зарубіжна література",
+                "teacher": "Фесенко І. А."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Хімія",
+                "teacher": "Завора Я. А."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Захист України",
+                "teacher": "Леженін О. М."
+              },
+              {
+                "subject": "Громадянська освіта",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Всесвітня історія",
+                "teacher": "Полупанов Д. С."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Громадянська освіта",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Хімія",
+                "teacher": "Завора Я. А."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Захист України",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Владимирова Т. В."
+              },
+              {
+                "subject": "Історія України",
+                "teacher": "Полупанов Д. С."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Біологія і екологія",
+                "teacher": "Кравченко Т. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Лапіна В. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Історія України",
+                "teacher": "Посвистак А. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Надьон Л. В."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "-",
+                "teacher": "ОПК-124"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "РПЗ-114": {
+    "column": 11,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Математика",
+                "teacher": "Габеркорн Н. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Історія України",
+                "teacher": "Гужовська З. І."
+              },
+              {
+                "subject": "Захист України",
+                "teacher": "Пасечник І. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Українська література",
+                "teacher": "Костюкова Ж. В."
+              },
+              {
+                "subject": "Громадянська освіта",
+                "teacher": "Сенкевич Н. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Хімія",
+                "teacher": "Завора Я. А."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Географія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Зарубіжна література",
+                "teacher": "Суворова Н. О."
+              },
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": "Суворова Н. О."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Посвистак А. А"
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Хімія",
+                "teacher": "Завора Я. А."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Мірошник С. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Біологія і екологія",
+                "teacher": "Кравченко Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Громадянська освіта",
+                "teacher": "Сенкевич Н. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Захист України",
+                "teacher": "Пасечник І. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Полупанов Д. С."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Булгакова Г. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Кравченко Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "-",
+                "teacher": "РПЗ-114"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "РПЗ-124": {
+    "column": 13,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Українська література",
+                "teacher": "Костюкова Ж. В."
+              },
+              {
+                "subject": "Захист України",
+                "teacher": "Пасечник І. І."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Біологія і екологія",
+                "teacher": "Кравченко Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Хімія",
+                "teacher": "Завора Я. А."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": "Лола Н. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Всесвітня історія",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Хімія",
+                "teacher": "Завора Я. А."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Географія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Історія України",
+                "teacher": "Леженін О. М."
+              },
+              {
+                "subject": "Громадянська освіта",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Посвистак А. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Інформатика",
+                "teacher": "Булгакова Г. Г."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Захист України",
+                "teacher": "Пасечник І. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Громадянська освіта",
+                "teacher": "Леженін О. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Владимирова Т. В."
+              },
+              {
+                "subject": "Зарубіжна література",
+                "teacher": "Суворова Н. О."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Кравченко Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Мірошник С. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Чабак К. С."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "-",
+                "teacher": "РПЗ-124"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ГМп-213": {
+    "column": 15,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Інженерна та комп'ютерна графіка",
+                "teacher": "Старих І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Барсукова А. І."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Фізичне виховання",
+                "teacher": "Сердечний В. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Соціологія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізичне виховання",
+                "teacher": "Сердечний В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Інженерна та комп'ютерна графіка",
+                "teacher": "Старих І. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Канікули",
+                "teacher": "Долина К. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Канікули",
+                "teacher": "Полупанов Д. С."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Канікули",
+                "teacher": "Старих І. В. "
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Канікули",
+                "teacher": "ГМп-213"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ГМ-213": {
+    "column": 17,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Барсукова А. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Історія України*",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Інженерна та комп'ютерна графіка",
+                "teacher": "Старих І. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": "Янущиць А. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Українська література",
+                "teacher": "Лола Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Сердечний В. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Соціологія",
+                "teacher": "Рибаченко І. М."
+              },
+              {
+                "subject": "Математика",
+                "teacher": "Владимирова О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Інженерна та комп'ютерна графіка",
+                "teacher": "Старих І. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Історія України",
+                "teacher": "Полупанов Д. С."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Посвистак А. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Марінін О. І."
+              },
+              {
+                "subject": "Фізична культура",
+                "teacher": "Сердечний В. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Владимирова О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Посвистак А. В."
+              },
+              {
+                "subject": "ДПА",
+                "teacher": "Старих І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Долина К. М."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "ГМ-213"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ТО-213/ТОп-213": {
+    "column": 19,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Оленчук І. Я."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Нарисна геометрія та інженерна графіка",
+                "teacher": "Рязанов А. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Історія України",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Нарисна геометрія та інженерна графіка ІІ п.",
+                "teacher": "Рязанов А. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Українська література",
+                "teacher": "Суворова Н. О."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Барсукова А. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Основи електротехніки, електроніки та мікропроцесорної техніки",
+                "teacher": "Іваніщенко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Панаарьова О. Б."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Нарисна геометрія та інженерна графіка ІІ п.",
+                "teacher": "Рязанов А. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Загальна фізика",
+                "teacher": "Долина К. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Нарисна геометрія та інженерна графіка",
+                "teacher": "Рязанов А. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Сердечний В. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": "Янущиць А. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Математика",
+                "teacher": "Чабак К. С."
+              },
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Оленчук І. Я."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Сердечний В. В."
+              },
+              {
+                "subject": "Основи електротехніки, електроніки та мікропроцесорної техніки",
+                "teacher": "Іваніщенко О. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Панамарьова О. Б."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Іваніщенко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Чабак К. С."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "ТО-212/ТОп-213"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ПТ-213/ПТп-213": {
+    "column": 21,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Гуріна Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Оленчук І. Я."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Барсукова А. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": "Янущиць А. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Математика",
+                "teacher": "Владимирова О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Теоретичні основи ел. техніки",
+                "teacher": "Кириченко В. Л."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Загальна фізика",
+                "teacher": "Долина К. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Нарисна геометрія, інженерна та комп. графіка",
+                "teacher": "Старих І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Оленчук І. Я."
+              },
+              {
+                "subject": "Математика",
+                "teacher": "Владимирова О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Мірошник С. В."
+              },
+              {
+                "subject": "Теоретичні основи ел. техніки",
+                "teacher": "Кириченко В. Л."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Українська література",
+                "teacher": "Суворова Н. О."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Гуріна Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Історія України",
+                "teacher": "Полупанов Д. С."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Нарисна геометрія, інженерна та комп. графіка ІІ п.",
+                "teacher": "Рязанов А. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Рязанов А. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Старих. І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Кириченко В. Л."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Мірошник С. В."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "ПТ-213/ПТп-213"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "МІТ-213\\МІТп-213": {
+    "column": 23,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Математика",
+                "teacher": "Чабак К. С."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Основи ел. техніки та електроніки",
+                "teacher": "Іваніщенко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Нарисна геом., інжен. та комп. графіка ІІ п.",
+                "teacher": "Старих. І. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Сердечний В. В."
+              },
+              {
+                "subject": "Математика",
+                "teacher": "Чабак К. С."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Загальна фізика",
+                "teacher": "Бернадська Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Бернадська Т. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": "Костюкова Ж. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Українська література",
+                "teacher": "Костюкова Ж. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Сердечний В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Карпусь В. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Нарисна геометрія, інжен. та комп. графіка",
+                "teacher": "Рязанов А. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Карпусь В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Основи ел. техніки та електроніки",
+                "teacher": "Іваніщенко О. В."
+              },
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Бернадська Т. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Основи ел. техніки та електроніки",
+                "teacher": "Іваніщенко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Історія України",
+                "teacher": "Полупанов Д. С."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Нарисна геометрія, інжен. та комп. графіка",
+                "teacher": "Рязанов А. М."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Нарисна геометрія, інжен. та комп. графіка ІІ п.",
+                "teacher": "Старих. І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "МІТ-213/МІТп-213",
+                "teacher": "МІТ-213/МІТп-213"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ОПК-213/ОПКп-213": {
+    "column": 25,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Бернадська Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Основи електротехніки та електроніки",
+                "teacher": "Кириченко В. Л."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Лапіна В. Ю."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Історія України ",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Історія України *",
+                "teacher": "Гужовська З. І."
+              },
+              {
+                "subject": "Математика",
+                "teacher": "Владимирова О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": "Лола Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Коломієць П. Ю."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Основи філософських знань",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Основи електротехніки та електроніки",
+                "teacher": "Кириченко В. Л."
+              },
+              {
+                "subject": "Фізична культура",
+                "teacher": "Лапіна В. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Коломієць П. Ю."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Українська література",
+                "teacher": "Суворова Н. О."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Бернадська Т. В."
+              },
+              {
+                "subject": "Фізика",
+                "teacher": "Долина К. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Долина К. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Владимирова О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Коломієць П. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "ОПК-213/ОПКп-213"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ОПК-223": {
+    "column": 27,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Лапіна В. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Барсукова А. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Коломієць П. Ю,"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": "Лола Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізика ",
+                "teacher": "Долина К. М."
+              },
+              {
+                "subject": "Історія України*",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Історія України",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Математика",
+                "teacher": "Чабак К. С."
+              },
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Долина К. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Коломієць П. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Лапіна В. Ю."
+              },
+              {
+                "subject": "Основи електротехніки та електроніки",
+                "teacher": "Кириченко В. Л."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Українська література",
+                "teacher": "Костюкова Ж. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Основи філософських знань",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізика",
+                "teacher": "Долина К. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Долина К. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Чабак К. С."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Коломієць П. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Кириченко В. Л."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "ОПК-223"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "РПЗ-213": {
+    "column": 29,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Мірошник С. В."
+              },
+              {
+                "subject": "Історія України*",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Вища математика",
+                "teacher": "Чабак К. С."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Математика",
+                "teacher": "Чабак К. С."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Математика",
+                "teacher": "Чабак К. С."
+              },
+              {
+                "subject": "Технології",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Оленчук І. Я."
+              },
+              {
+                "subject": "Українська мова",
+                "teacher": "Суворова Н. О."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Українська література",
+                "teacher": "Лола Н. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізика",
+                "teacher": "Кириченко В. Л."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Історія України",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Основи філософських знань",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Вища математика",
+                "teacher": "Чабак К. С."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Мірошник С. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Кириченко В. Л."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Оленчук І. Я."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "РПЗ-213"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "РПЗ-223": {
+    "column": 31,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Основи філософських знань",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Вища математика",
+                "teacher": "Габеркорн Н. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізика",
+                "teacher": "Кириченко В. Л."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Оленчук І. Я."
+              },
+              {
+                "subject": "Фізична культура",
+                "teacher": "Мірошник С. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізика",
+                "teacher": "Кириченко В. Л."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Українська мова",
+                "teacher": "Янущиць А. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Історія України*",
+                "teacher": "Гужовська З. І."
+              },
+              {
+                "subject": "Математика",
+                "teacher": "Габеркорн Н. Ю."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Історія України",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Іноземна мова",
+                "teacher": "Барсукова А. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Українська література",
+                "teacher": "Костюкова Ж. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізична культура",
+                "teacher": "Мірошник С. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Технології",
+                "teacher": "Тищенко І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Фізика і астрономія",
+                "teacher": "Оленчук І. Я."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Габеркорн Н. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Габеркорн Н. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "Тищенко І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "ДПА",
+                "teacher": "РПЗ-223"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ГМ-312/ГМп-312": {
+    "column": 33,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Технологія маш. буд.",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Будова і обсл. обладн. в галузевому ашинобудуванні",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Іноземна мова (за професійним спрямуванням)",
+                "teacher": "Гуріна Д. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Економіка, організ. і планування вир-ва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Безпека життєдіяльності та охорона праці",
+                "teacher": "Завгородній П. О."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Економіка, організ. і планування вир-ва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Технологія маш. буд.",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізичне виховання",
+                "teacher": "Сердечний В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Українська мова (за професійним спрямуванням)",
+                "teacher": "Суворова Н. О."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Будова і обсл. обладн. в галузевому ашинобудуванні",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Метрологія, стандарт., доп. і посадки, технічні виміри",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Безпека життєдіяльності та охорона праці ",
+                "teacher": "Завгородній П. О."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Технологія маш. буд.",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Економіка, організ. і планування вир-ва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Сердечний В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "ГМ-312/ГМп-312"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ТО-312": {
+    "column": 35,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Будова і обсл. верст. з ПУ та РТК",
+                "teacher": "Бовт Л. С."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Безпека житєдіяльності і охорона праці\n",
+                "teacher": "Гончаренко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Електропривод та ел. обладнання верст. з ПУ та РТК",
+                "teacher": "Іваніщенко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Фізичне виховання",
+                "teacher": "Лапіна В. Ю."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Іноземна мова (за професійним спрямуваням)",
+                "teacher": "Гуріна Д В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Будова і обсл. верст. з ПУ та РТК",
+                "teacher": "Бовт Л. С."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Приводи машин та обладнання",
+                "teacher": "Покусай П. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Фізичне виховання",
+                "teacher": "Лапіна В. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Основи правознавства",
+                "teacher": "Сенкевич Н. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Українська мова (за професійним спрямуванням)",
+                "teacher": "Суворова Н. О."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Будова і обсл. верст. з ПУ та РТК",
+                "teacher": "Бовт Л. С."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Будова і обсл. верст. з ПУ та РТК",
+                "teacher": "Бовт Л. С."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Приводи машин та обладнання",
+                "teacher": "Покусай П. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Іноземна мова (за професійним спрямуванням)",
+                "teacher": "Гуріна Д. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "-",
+                "teacher": "Покусай П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Гончаренко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Іваніщенко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Буд. і обсл.",
+                "teacher": "Бовт Л. С."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "КП",
+                "teacher": "ТО-312"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ПТ-312/ПТп-312": {
+    "column": 37,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Електричні апарати та машини",
+                "teacher": "Іваніщенко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Електричні апарати та машини",
+                "teacher": "Іваніщенко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізичне виховання",
+                "teacher": "Мірошник С. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Комп. самотехніка та архітектуракомпютера",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Безпека життєдіяльності і охорона праці",
+                "teacher": "Долина К. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Електричні апарати та машини",
+                "teacher": "Іваніщенко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Іноземна мова (за професіфйним спрямуванням)",
+                "teacher": "Барсукова А. І."
+              },
+              {
+                "subject": "Технол. рем. комп. та ел.побут. техніки",
+                "teacher": "Лелюк М. О."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Українська мова (за професійним спрямуванням)",
+                "teacher": "Суворова Н. О."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Основи метрології та ел. вимірювань",
+                "teacher": "Долина К. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Іноземна мова (за професіфйним спрямуванням)",
+                "teacher": "Барсукова А. І."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Електричні апарати та машини",
+                "teacher": "Іваніщенко О. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Безпека життєдіяльності і охорона праці",
+                "teacher": "Долина К. М."
+              },
+              {
+                "subject": "Електропобутова техніка",
+                "teacher": "Гуріна Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Електричні апарати та машини",
+                "teacher": "Іваніщенко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізичне виховання",
+                "teacher": "Мірошник С.В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Техн. рем. комп. та ел. поб. техніки",
+                "teacher": "Лелюк М. О."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "ЕПТ | Тех. рем",
+                "teacher": "Гуріна Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "",
+                "teacher": "Долина К. М."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "-",
+                "teacher": "ПТ-312/ПТп-312"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "МІТ-312/МІТп-312": {
+    "column": 39,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Інформаційно-вимірювальні системи",
+                "teacher": "Бернадська Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Безпека життєдіяльності і охорона праці і охорона праці",
+                "teacher": "Гончаренко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Фізичне виховання",
+                "teacher": "Сердечний В. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Інформаційно-вимірювальні системи",
+                "teacher": "Бернадська Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Операційні системи, технологія програмування",
+                "teacher": "Ігнатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Засоби вимірювальної техніки та вимірювання",
+                "teacher": "Оленчук І. Я."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Українська мова (за професійним спрямуванням)",
+                "teacher": "Суворова Н. О."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Основи правознавста",
+                "teacher": "Сенкевич Н. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Операційні системи, технологія програмування",
+                "teacher": "Ігнатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Іноземна мова (за професійним спрямуванням)",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Інформаційно-вимірювальні системи",
+                "teacher": "Бернадська Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Інформаційно-вимірювальні системи",
+                "teacher": "Бернадська Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Операційні системи, технологія програмування",
+                "teacher": "Ігнатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Фізичне виховання",
+                "teacher": "Сердечний В.В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Сесія",
+                "teacher": "Гончаренко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Сесія",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Сесія",
+                "teacher": "Оленчук І. Я."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Сесія",
+                "teacher": "МІТ-312/МІТп-312"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ОПК-312/ОПКп-312": {
+    "column": 41,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Бази даних",
+                "teacher": "Тіщенко І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Архітектура комп'ютера",
+                "teacher": "Ігатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Бази даних",
+                "teacher": "Тіщенко І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Іноземна мова (за професійним спрямуванням)",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Об'єктно-орієнтоване програмування",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Безпека життєдіяльності і охорона праці",
+                "teacher": "Завгородній П. О."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Комп'ютерна та графіка та вебдизайн",
+                "teacher": "Залевська А. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Консульиація з КП Бази даних",
+                "teacher": "Тіщенко І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Бази даних",
+                "teacher": "Тищенко І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Архітектура комп'ютера",
+                "teacher": "Ігнатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Фізичне виховання",
+                "teacher": "Лапіна В. Ю."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Технології WEB-розробки",
+                "teacher": "Сомова А. А."
+              },
+              {
+                "subject": "Іноземна мова (за професійним спрямуванням)",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Безпека життєдіяльності і охорона праці",
+                "teacher": "Завгородній П. О."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Комп'ютерна графіка",
+                "teacher": "Залевська А. В."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Обєктно-орінтоване програмування",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Сомова А. А."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Тищенко І. В."
+              },
+              {
+                "subject": "Практика",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Лапіна В. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "ОПК-312/ОПКп-312"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "РПЗ-312/РПЗп-312": {
+    "column": 43,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Об'єктно-орієнтоване програмуваня",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Фізичне виховання",
+                "teacher": "Сердечний В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Безпека життєдіяльності  і охрона праці",
+                "teacher": "Булгакова Г. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Бази даних",
+                "teacher": "Тіщенко І. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Комп'ютерна графіка та вебдизайн/Технології вебдизайну",
+                "teacher": "Залевська А. В."
+              },
+              {
+                "subject": "Дискретна математика",
+                "teacher": "Кононова Г. О."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Безпека життєдіяльності і охорона праці",
+                "teacher": "Булгакова Г. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Бази даних ",
+                "teacher": "Тищенко І. В."
+              },
+              {
+                "subject": "Іноземна мова (за професійним спрямуванням)",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Бази даних",
+                "teacher": "Тіщенко І. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Об'єктно-орієнтоване програмування",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Соціологія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Бази даних",
+                "teacher": "Тищенко І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Бази даних",
+                "teacher": "Тіщенко І. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Комп'ютерна графіка та вебдизайн/Технології вебдизайну",
+                "teacher": "Залевська А. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Об'єктно-орієнтоване програмування",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Дискретна математика",
+                "teacher": "Кононова Г. О."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Фізичне виховання",
+                "teacher": "Сердечний В. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Тіщенко І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Кононова Г. О."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Тищенко І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Владимирова Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "РПЗ-312/РПЗп-312"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ВВ-411": {
+    "column": 45,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Економіка, організація та планування виробництва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Економіка, організація та планування виробництва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Технол. машинобуд.",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Основи правознавства",
+                "teacher": "Сенкевич Н. В."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Технол. машинобуд.",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Технол. машинобуд.",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Програмування для автоматиз. обладн.",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Тех. нормування",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Економіка, організація та планування виробництва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Технол. машинобуд.",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Охорона праці в галузі",
+                "teacher": "Гончаренко О. В."
+              },
+              {
+                "subject": "Основи філософських знань",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Технол. машинобуд.",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Програмування для автоматиз. обладн.",
+                "teacher": "Марінін О. І."
+              },
+              {
+                "subject": "Тех. нормування",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Технол. машинобуд.",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Технологія 3D виробництва",
+                "teacher": "Лисенко Н. М."
+              },
+              {
+                "subject": "Соціологія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Оліійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "ВВ-411"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ЗА-411": {
+    "column": 47,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Мехатроніка і гідропневмоавтоматика",
+                "teacher": "Панамарьова О. Б."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Констр. гідр. та пневм. схем, вузлів та деталей",
+                "teacher": "Панамарьова О. Б."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Монтаж, наладка і ТО прив. Машин",
+                "teacher": "Панамарьова О. Б."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультаця з КП Монтаж, наладка і ТО прив. Машин",
+                "teacher": "Панамарьова О. Б."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Технологія вир-ва гідр. і пневм. зас. Автоматизації",
+                "teacher": "Марінін О. І."
+              },
+              {
+                "subject": "Основи філософських знань",
+                "teacher": "Тарасенко І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Констр. гідр. та пневм. схем, вузлів та деталей",
+                "teacher": "Панамарьова О. Б."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Економіка, організація та планування виробництва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Економіка, організація та планування виробництва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Охорона праці в галузі",
+                "teacher": "Гончаренко О. В."
+              },
+              {
+                "subject": "Соціологія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Економіка, організація та планування виробництва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": " Монтаж, наладка і ТО прив. Машин",
+                "teacher": "Панамарьова О. Б."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультаця з КП Монтаж, наладка і ТО прив. Машин",
+                "teacher": "Панамарьова О. Б."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Основи правознавстава",
+                "teacher": "Сенкевич Н. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Технологія вир-ва гідр. і пневм. зас. Автоматизації",
+                "teacher": "Марінін О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Економіка, організація та планування виробництва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Економіка, організація та планування виробництва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Панамарьова О. Б."
+              },
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Панамарьова О. Б."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Панамарьова О. Б."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "ЗА-411"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ТО-411": {
+    "column": 49,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Буд. і налаг. систем ПУ",
+                "teacher": "Зорін Є. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Основи технології машинобудування",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Будова і обслуг. верстатів з ПУ і РТК",
+                "teacher": "Бовт Л. С."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Економіка, організація та планування виробництва",
+                "teacher": "Дідух І. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Керування і регулювання ел. механіч. сист. за доп. мікроконтр.",
+                "teacher": "Зорін Є. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Взаємозам. стандартиз. та тех. вимірювання",
+                "teacher": "Долина К. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Будова і обслуг. верстатів з ПУ і РТК",
+                "teacher": "Бовт Л. С."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Буд. і налаг. систем ПУ",
+                "teacher": "Зорін Є. Ю."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Основи філосоських знань",
+                "teacher": "Тарасенко І. В."
+              },
+              {
+                "subject": "Охорона праці  в галузі",
+                "teacher": "Гончаренко О. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Економіка, організація та планування виробництва",
+                "teacher": "Дідух І. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Буд. і налаг. систем ПУ",
+                "teacher": "Зорін Є. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Економіка, організація та планування виробництва",
+                "teacher": "Дідух І. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Будова і обслуг. верстатів з ПУ і РТК",
+                "teacher": "Бовт Л. С."
+              },
+              {
+                "subject": "Соціологія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Буд. і налаг. систем ПУ",
+                "teacher": "Зорін Є. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Основи технології машинобудування",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Зорін Є. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Лисенко Н. М."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Дідух І. І."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Дідух І. І."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "ТО-411"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ПТ-411": {
+    "column": 51,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Архітектура комп'ютера та промислова електроніка",
+                "teacher": "Зорін Є.Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Охорона праці в галузі",
+                "teacher": "Булгакова Г. Г."
+              },
+              {
+                "subject": "Мікроконтролерні засоби автоматизації",
+                "teacher": "Карпусь В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Адміністування програмних ситсем і комп. мереж",
+                "teacher": "Ігнатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Економіка, організація та планування виробництва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Економіка, організація та планування виробництва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Техн. ремонту комп. та ел. побутової техніки",
+                "teacher": "Лелюк М. О."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Електричні  системи і мережі",
+                "teacher": "Дягілев В. О."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Техн. ремонту комп. та ел. побутової техніки",
+                "teacher": "Лелюк М. О."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Мікроконтролерні засоби автоматизації",
+                "teacher": "Карпусь В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Архітектура комп'ютера та промислова електроніка",
+                "teacher": "Зорін Є.Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Економіка, організація та планування виробництва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Економіка, організація та планування виробництва",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Техн. ремонту комп. та ел. побутової техніки",
+                "teacher": "Лелюк М. О."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Електричні  системи і мережі",
+                "teacher": "Дягілев В. О."
+              },
+              {
+                "subject": "Соціологія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Техн. ремонту комп. та ел. побутової техніки",
+                "teacher": "Лелюк М. О."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Основи філософських знань",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Олійник І. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Ігнатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Карпусь В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "ПТ-411"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "МІТ-411": {
+    "column": 53,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Економіка підприємства",
+                "teacher": "Дідух І. І."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": " Основи економіки, менеджменту маркетингу",
+                "teacher": "Дідух І. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Обслуговування і повірка засобів вимірювальної техніки",
+                "teacher": "Зорін Є. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Лазерна техніка",
+                "teacher": "Бернадська Т. В."
+              },
+              {
+                "subject": "Інтегроване контрольно-діагностичне обладнання",
+                "teacher": "Карпусь В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Обслуговування і повірка засобів вимірювальної техніки",
+                "teacher": "Зорін Є. Ю."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Інформаційно-вимірювальні техноогії контролю та діагностики",
+                "teacher": "Карпусь В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Тестування програмного забезпечення",
+                "teacher": "Ігнатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": " Інтегроване контрольно-діагностичне обладнання",
+                "teacher": "Карпусь В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Обслуговування і повірка засобів вимірювальної техніки",
+                "teacher": "Зорін Є. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Засоби вимірювальної техніки та вимірювання",
+                "teacher": "Оленчук І. Я."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Оптичні системи в метрології",
+                "teacher": "Бернадська Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Лазерна техніка",
+                "teacher": "Бернадська Т. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Основи філософських знань",
+                "teacher": "Гужовська З. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Соціологія",
+                "teacher": "Рибаченко І. М."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Оптичні системи в метрології",
+                "teacher": "Бернадська Т. В."
+              },
+              {
+                "subject": "Інформаційно-вимірювальні техноогії контролю та діагностики",
+                "teacher": "Карпусь В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Обслуговування і повірка засобів вимірювальної техніки",
+                "teacher": "Зорін Є. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Засоби вимірювальної техніки та вимірювання",
+                "teacher": "Оленчук І. Я."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": " Основи якості програмного забезпечення",
+                "teacher": "Ігнатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Економіка підприємства",
+                "teacher": "Дідух І. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Оленчук І. Я."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Дідух І. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Ігнатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Зорін Є. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "Ігнатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Практика",
+                "teacher": "МІТ-411"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ОПК-411": {
+    "column": 55,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Адміністрування програмних ситсем і комплексів",
+                "teacher": "Бур'янов Д. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Розробка клієнт-серверних застосувань",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Технології захисту інформації",
+                "teacher": "Тіщенко І. В."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Технологія створення прогр. прод.",
+                "teacher": "Коломієць П. Ю."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Комп'ютерна самотехніка та архітектура комп'ютерів",
+                "teacher": "Надьон Л. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Теорія алгоритмів",
+                "teacher": "Кононова Г. О."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Технологія створення прогр. прод.",
+                "teacher": "Кононова Г. О."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Тестування програмних систем і комплексів",
+                "teacher": "Сомова А. А."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Економіка та основи ІТ-бієнесу",
+                "teacher": "Ігнатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Математичні методи дослідженння",
+                "teacher": "Чабак К. С (Лисяк П. Г.)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "1",
+            "subjects": [
+              {
+                "subject": "Комп'ютерна самотехніка та архітектура комп'ютерів",
+                "teacher": "Надьон Л. В."
+              }
+            ]
+          },
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Технології захисту інформації",
+                "teacher": "Тищенко І. В."
+              },
+              {
+                "subject": "Економіка та основи ІТ-бізнесу",
+                "teacher": "Ігнатенко О. І."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Технологія створення прогр. прод.",
+                "teacher": "Кононова Г. О."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Технологія створення прогр. прод.",
+                "teacher": "Коломієць П. Ю"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Бур'янов Д. В."
+              },
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Сомова А. А."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "ОПК-411"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "РПЗ-411": {
+    "column": 57,
+    "days": [
+      {
+        "name": "Понеділок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Конструювання програмного забезпечення",
+                "teacher": "Кононова Г. О."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Проєктний практикум",
+                "teacher": "Кононова Г. О."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Основи програмної інженерії",
+                "teacher": "Кононова Г. О."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Інструментальні засоби візуального програмування",
+                "teacher": "Шворак Р. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Вівторок",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Організація комп'ютерних мереж",
+                "teacher": "Карпусь В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Чисельні методи",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Інструментальні засобивізуального програмування",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Консультація з КП Інструментальні засоби візуального програмування",
+                "teacher": "Шворак Р. І."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Середа",
+        "lessons": [
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Організація комп'ютерних мереж",
+                "teacher": "Карпусь В. В."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Теорія ймовірностей і математична статистика",
+                "teacher": "Чабак К. С. (Лисяк П. Г.)"
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Інструментальні засоби візуального програмування",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Четвер",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Основи програмної інженерії",
+                "teacher": "Кононва Г. О."
+              },
+              {
+                "subject": "Алгоритми та структури даних",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Людино-машинно інтерфейс",
+                "teacher": "Коломієць П. Ю."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Чисельні методи",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "П'ятниця",
+        "lessons": [
+          {
+            "lesson": "2",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Лисяк П. Г."
+              }
+            ]
+          },
+          {
+            "lesson": "3",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Кононова Г. О."
+              },
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Кононова Г. О."
+              }
+            ]
+          },
+          {
+            "lesson": "4",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Кононова Г. О."
+              }
+            ]
+          },
+          {
+            "lesson": "5",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "Шворак Р. І."
+              }
+            ]
+          },
+          {
+            "lesson": "6",
+            "subjects": [
+              {
+                "subject": "Дипломне проєктування",
+                "teacher": "РПЗ-411"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -20,12 +20,12 @@ class AdminController
         group_name = message.text.strip  
       
         if group_name.empty?
-          @bot.api.send_message(chat_id: message.chat.id, text: "Название группы не может быть пустым.")
+          @bot.api.send_message(chat_id: message.chat.id, text: "Назва групи не може бути пустою.")
           return
         end
       
         if Group.exists?(group_name: group_name)
-          @bot.api.send_message(chat_id: message.chat.id, text: "Группа уже существует.")
+          @bot.api.send_message(chat_id: message.chat.id, text: "Група вже існує.")
         else
           Group.create(group_name: group_name)
           @bot.api.send_message(chat_id: message.chat.id, text: "Група '#{group_name}' додана")
@@ -41,7 +41,7 @@ class AdminController
         list = groups.map.with_index(1) { |g, i| "#{i}. #{g.group_name}" }.join("\n")
         text = "Список груп:\n" + list
       else
-        text = "Пока нет ни одной группы."
+        text = "Поки ще не має жодної групи."
       end
       @bot.api.send_message(chat_id: message.chat.id, text: text)
     end

@@ -2,10 +2,9 @@ module Core
   module Keyboards
     class << self
       def group_selection_keyboard(groups)
-        sorted_groups = groups.sort_by(&:group_name)
 
         Telegram::Bot::Types::InlineKeyboardMarkup.new(
-          inline_keyboard: sorted_groups.map do |group|
+          inline_keyboard: groups.map do |group|
             [
               Telegram::Bot::Types::InlineKeyboardButton.new(
                 text: group.group_name,
@@ -44,7 +43,6 @@ module Core
             [{ text: 'Імпорт груп з таблиці' }], [{ text: 'Оновити розклад' }],
             [{ text: 'Додати заміни' }], [{ text: 'Назад' }]
           ],
-          resize_keyboard: true,
           one_time_keyboard: true
         )
       end

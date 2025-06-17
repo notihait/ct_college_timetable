@@ -1,5 +1,7 @@
 require 'json'
 require 'open-uri'
+require 'fileutils'
+require_relative '../services/parse_schedule_xlsx_service'
 
 class ScheduleController
   def initialize(bot, token)
@@ -7,16 +9,20 @@ class ScheduleController
     @token = token
   end
 
+  # Обробка завантаження файлу розкладу
   def handle_schedule_upload(message, user)
     document = message.document
 
     unless document&.mime_type == 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-      @bot.api.send_message(chat_id: message.chat.id, text: "Будь ласка, надішліть файл у форматі .xlsx.")
+      @bot.api.send_message(chat_id: message.chat.id, text: "Некоректний файл. Будь ласка, надішліть XLSX файл.")
+      user.update(state: nil)
       return
     end
 
-    file_id = document.file_id
+    # Видаляємо старі файли розкладу
+    Dir.glob(File.join('storage', 'schedule_*.xlsx')).each { |file| File.delete(file) rescue nil }
 
+    file_id = document.file_id
     url = "https://api.telegram.org/bot#{@token}/getFile?file_id=#{file_id}"
 
     begin
@@ -33,8 +39,14 @@ class ScheduleController
           File.open(save_path, 'wb') { |f| f.write(file.read) }
         end
 
+        # Парсимо розклад через сервіс
+        parsed_schedule = ParseScheduleXlsxService.new(save_path).call
+
+        # Зберігаємо у JSON файл
+        File.write('storage/merged_schedule.json', JSON.pretty_generate(parsed_schedule))
+
         user.update(state: nil)
-        @bot.api.send_message(chat_id: message.chat.id, text: "Файл успішно збережено: #{save_path}")
+        @bot.api.send_message(chat_id: message.chat.id, text: "Файл успішно збережено та розклад оновлено.")
       else
         @bot.api.send_message(chat_id: message.chat.id, text: "Помилка отримання файлу з Telegram: #{response['description']}")
       end
@@ -43,42 +55,4 @@ class ScheduleController
     end
   end
 
-  def send_schedule(chat_id, user_id)
-    user = User.find_by(telegram_id: user_id)
-    unless user&.group_id
-      @bot.api.send_message(chat_id: chat_id, text: "Не вказана група користувача.")
-      return
-    end
-
-    group = Group.find_by(id: user.group_id)
-    unless group
-      @bot.api.send_message(chat_id: chat_id, text: "Групу не знайдено.")
-      return
-    end
-
-    json_path = File.join('storage', 'timetable.json')
-    unless File.exist?(json_path)
-      @bot.api.send_message(chat_id: chat_id, text: "Файл з розкладом не знайдено.")
-      return
-    end
-
-    timetable = JSON.parse(File.read(json_path))
-    group_schedule = timetable[group.group_name]
-    unless group_schedule
-      @bot.api.send_message(chat_id: chat_id, text: "Розклад для групи #{group.group_name} не знайдено.")
-      return
-    end
-
-    text = "Розклад для групи #{group.group_name}:\n\n"
-    group_schedule['days'].each do |day|
-      text << "#{day['name']}:\n"
-      day['lessons'].each do |lesson|
-        subjects_text = lesson['subjects'].map { |s| "#{s['subject']} (#{s['teacher']})" }.join(', ')
-        text << "  #{lesson['lesson']}. #{subjects_text}\n"
-      end
-      text << "\n"
-    end
-
-    @bot.api.send_message(chat_id: chat_id, text: text)
-  end
 end

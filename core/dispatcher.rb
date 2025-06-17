@@ -10,7 +10,7 @@ require_relative '../controllers/update_schedule_controller'
 require_relative '../controllers/admin_controller'
 require_relative '../controllers/day_of_week_controller'
 require_relative '../controllers/group_import_controller'
-
+require_relative '../controllers/changes_controller'
 
 class Dispatcher
   include AdminChecker
@@ -19,6 +19,7 @@ class Dispatcher
     @bot = bot
     @token = token
     @schedule_controller = ScheduleController.new(bot, token)
+    @changes_controller = ChangesController.new(bot, token)
     @admin_controller = AdminController.new(bot)
     @day_of_week_controller = DayOfWeekController.new
   end
@@ -45,43 +46,46 @@ class Dispatcher
   end
 
   def process_message(message)
-    puts "Обработка: #{message.text}"
+    puts "Обробка повідомлення: #{message.text.inspect}"
 
     user = User.find_by(telegram_id: message.from.id)
-
-    if user&.state == 'awaiting_schedule_file' || user&.state == 'awaiting_schedule_upload'
-      @schedule_controller.handle_schedule_upload(message, user)
-      return
+    unless user
+      user = User.create(
+        telegram_id: message.from.id,
+        first_name: message.from.first_name
+      )
     end
 
-    case message.text
-    when '/start'
-      chat_id = message.chat.id
-      @bot.api.send_message(chat_id: chat_id, text: "Вітаю!")
-      unless user
-        User.create(
-          telegram_id: message.from.id,
-          first_name: message.from.first_name
-        )
+    # Якщо отримали документ — обробляємо згідно стану користувача
+    if message.document
+      case user.state
+      when 'awaiting_schedule_upload'
+        @schedule_controller.handle_schedule_upload(message, user)
+        return
+      when 'awaiting_changes_upload'
+        @changes_controller.handle_changes_upload(message, user)
+        return
       end
-      show_main_menu(chat_id, message.from.id)
+    end
 
+    # Обробка текстових команд
+    case message.text
     when 'Обрати групу'
-      groups = Group.all
+      groups = Group.all.to_a.sort_by{|g| g.group_name.split('-').last.to_i}
       keyboard = Core::Keyboards.group_selection_keyboard(groups)
       @bot.api.send_message(
         chat_id: message.chat.id,
-        text: "Оберіть групу:",
+        text: "🫂Оберіть групу:",
         reply_markup: keyboard
       )
 
     when 'Мій розклад'
       @bot.api.send_message(
         chat_id: message.chat.id,
-        text: "Оберіть день тижня:",
+        text: "📅Оберіть день тижня:",
         reply_markup: Core::Keyboards.days_keyboard
       )
-      user.update(state: nil) if user
+      user.update(state: nil)
 
     when 'Хто я?'
       @bot.api.send_message(chat_id: message.chat.id, text: "Ви: #{user.inspect}")
@@ -95,12 +99,11 @@ class Dispatcher
 
     when 'Додати групу'
       if admin?(message.from.id)
-        puts "Запускаємо створення групи для користувача #{message.from.id}"
         @admin_controller.start_group_creation(message)
       else
         @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
       end
-    
+
     when 'Імпорт груп з таблиці'
       if admin?(message.from.id)
         controller = GroupImportController.new
@@ -110,22 +113,20 @@ class Dispatcher
         @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
       end
 
-      
     when 'Список груп'
       @admin_controller.list_groups(message)
 
     when 'Додати заміни'
-  if admin?(message.from.id)
-    user.update(state: 'awaiting_changes_upload') if user
-    @bot.api.send_message(chat_id: message.chat.id, text: "Будь ласка, надішліть файл із замінами у форматі .docx.")
-  else
-    @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
-  end
-
+      if admin?(message.from.id)
+        user.update(state: 'awaiting_changes_upload')
+        @bot.api.send_message(chat_id: message.chat.id, text: "Будь ласка, надішліть файл із замінами у форматі .docx.")
+      else
+        @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
+      end
 
     when 'Оновити розклад'
       if admin?(message.from.id)
-        user.update(state: 'awaiting_schedule_upload') if user
+        user.update(state: 'awaiting_schedule_upload')
         @bot.api.send_message(chat_id: message.chat.id, text: "Будь ласка, надішліть файл у форматі .xlsx.")
       else
         @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
@@ -145,7 +146,6 @@ class Dispatcher
     chat_id = update.message.chat.id
     telegram_id = update.from.id
     user = User.find_by(telegram_id: telegram_id)
-
 
     case data
     when /^group_(\d+)$/

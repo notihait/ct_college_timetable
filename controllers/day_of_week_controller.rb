@@ -3,10 +3,10 @@ require 'json'
 
 class DayOfWeekController
   WEEK_DAYS = {
-    1 => "Понеділок",
-    2 => "Вівторок",
-    3 => "Середа",
-    4 => "Четвер",
+    1 => 'Понеділок',
+    2 => 'Вівторок',
+    3 => 'Середа',
+    4 => 'Четвер',
     5 => "П'ятниця"
   }
 
@@ -21,13 +21,13 @@ class DayOfWeekController
     group_schedule = data[group_name]
     return "Розклад для групи #{group_name} не знайдено." unless group_schedule
 
-    day_schedule = group_schedule["days"].find { |day| day["name"] == day_name }
+    day_schedule = group_schedule['days'].find { |day| day['name'] == day_name }
     return "На #{day_name} занять немає." unless day_schedule
 
     message = "#{day_name}, #{group_name}:\n"
-    day_schedule["lessons"].each do |lesson|
-      lesson_number = lesson["lesson"]
-      lesson["subjects"].each do |subject|
+    day_schedule['lessons'].each do |lesson|
+      lesson_number = lesson['lesson']
+      lesson['subjects'].each do |subject|
         message += "Пара #{lesson_number}: #{subject['subject']} (#{subject['teacher']})\n"
       end
     end

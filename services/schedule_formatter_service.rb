@@ -12,11 +12,11 @@ class ScheduleFormatter
 
     result = ["📅 *Розклад для групи #{group_name}*"]
 
-    group["days"].each do |day|
+    group['days'].each do |day|
       result << "\n*#{day['name']}*"
-      day["lessons"].each do |lesson|
-        lesson_number = lesson["lesson"]
-        subjects_text = lesson["subjects"].map do |subj|
+      day['lessons'].each do |lesson|
+        lesson_number = lesson['lesson']
+        subjects_text = lesson['subjects'].map do |subj|
           "— #{subj['subject']} (#{subj['teacher']})"
         end.join("\n")
 

@@ -14,13 +14,17 @@ class ScheduleController
     document = message.document
 
     unless document&.mime_type == 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-      @bot.api.send_message(chat_id: message.chat.id, text: "Некоректний файл. Будь ласка, надішліть XLSX файл.")
+      @bot.api.send_message(chat_id: message.chat.id, text: 'Некоректний файл. Будь ласка, надішліть XLSX файл.')
       user.update(state: nil)
       return
     end
 
     # Видаляємо старі файли розкладу
-    Dir.glob(File.join('storage', 'schedule_*.xlsx')).each { |file| File.delete(file) rescue nil }
+    Dir.glob(File.join('storage', 'schedule_*.xlsx')).each do |file|
+      File.delete(file)
+    rescue StandardError
+      nil
+    end
 
     file_id = document.file_id
     url = "https://api.telegram.org/bot#{@token}/getFile?file_id=#{file_id}"
@@ -46,13 +50,13 @@ class ScheduleController
         File.write('storage/merged_schedule.json', JSON.pretty_generate(parsed_schedule))
 
         user.update(state: nil)
-        @bot.api.send_message(chat_id: message.chat.id, text: "Файл успішно збережено та розклад оновлено.")
+        @bot.api.send_message(chat_id: message.chat.id, text: 'Файл успішно збережено та розклад оновлено.')
       else
-        @bot.api.send_message(chat_id: message.chat.id, text: "Помилка отримання файлу з Telegram: #{response['description']}")
+        @bot.api.send_message(chat_id: message.chat.id,
+                              text: "Помилка отримання файлу з Telegram: #{response['description']}")
       end
-    rescue => e
+    rescue StandardError => e
       @bot.api.send_message(chat_id: message.chat.id, text: "Помилка при завантаженні файлу: #{e.message}")
     end
   end
-
 end

@@ -1,13 +1,13 @@
 require 'docx'
 
 class ParseScheduleChangesService
-    DAYS_OF_THE_WEEK = [
-    "Понеділок",
-    "Вівторок",
-    "Середа",
-    "Четвер",
-    "П’ятниця"
-]
+  DAYS_OF_THE_WEEK = [
+    'Понеділок',
+    'Вівторок',
+    'Середа',
+    'Четвер',
+    'П’ятниця'
+  ]
 
   def initialize(file_path)
     @file_path = file_path
@@ -20,18 +20,17 @@ class ParseScheduleChangesService
   private
 
   def day_of_the_week
-    @day_of_the_week ||= DAYS_OF_THE_WEEK.find_index{|day|docx.text.include?(day.downcase)}
+    @day_of_the_week ||= DAYS_OF_THE_WEEK.find_index { |day| docx.text.include?(day.downcase) }
   end
 
   def docx
-  @docx ||= Docx::Document.open(@file_path)
-end
-
+    @docx ||= Docx::Document.open(@file_path)
+  end
 
   def table
     @table ||= docx.tables.first
   end
-  
+
   def parse
     group = nil
 
@@ -54,7 +53,7 @@ end
         ].reject(&:empty?).join(' | ')
       end
     end
-    {groups: groups, day_of_the_week: day_of_the_week}
+    { groups: groups, day_of_the_week: day_of_the_week }
   end
 end
 

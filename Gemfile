@@ -1,15 +1,15 @@
 source "https://rubygems.org"
 
 gem "activerecord", "~> 7.1"
-gem "sqlite3"           # или другая СУБД
 gem "rake"
+gem "sqlite3" # или другая СУБД
 gem "standalone_migrations"
-gem 'telegram-bot-ruby'
 gem "dotenv-rails"
+gem 'telegram-bot-ruby'
 gem 'dotenv'
 gem 'pry'
-gem 'rubocop'
 gem "creek"
+gem 'rubocop'
 gem 'json'
-gem 'open-uri'
-gem 'docx'
+gem 'docx'gem 'open-uri'
+

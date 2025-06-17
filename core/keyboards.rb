@@ -2,7 +2,6 @@ module Core
   module Keyboards
     class << self
       def group_selection_keyboard(groups)
-
         Telegram::Bot::Types::InlineKeyboardMarkup.new(
           inline_keyboard: groups.map do |group|
             [
@@ -17,24 +16,20 @@ module Core
 
       def user_main_menu_keyboard(is_admin: false)
         keyboard_buttons = [
-          [Telegram::Bot::Types::KeyboardButton.new(text: "Обрати групу")],
+          [Telegram::Bot::Types::KeyboardButton.new(text: 'Обрати групу')],
           [
-            Telegram::Bot::Types::KeyboardButton.new(text: "Мій розклад"),
-            Telegram::Bot::Types::KeyboardButton.new(text: "Хто я?")
+            Telegram::Bot::Types::KeyboardButton.new(text: 'Мій розклад'),
+            Telegram::Bot::Types::KeyboardButton.new(text: 'Хто я?')
           ]
         ]
-      
-        if is_admin
-          keyboard_buttons << [Telegram::Bot::Types::KeyboardButton.new(text: "Адмін-панель")]
-        end
-      
+
+        keyboard_buttons << [Telegram::Bot::Types::KeyboardButton.new(text: 'Адмін-панель')] if is_admin
+
         Telegram::Bot::Types::ReplyKeyboardMarkup.new(
           keyboard: keyboard_buttons,
           resize_keyboard: true
         )
       end
-      
-      
 
       def admin_menu_keyboard
         Telegram::Bot::Types::ReplyKeyboardMarkup.new(
@@ -48,17 +43,17 @@ module Core
       end
 
       def days_keyboard
-          buttons = [
-            Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Понеділок', callback_data: 'day_1'),
-            Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Вівторок', callback_data: 'day_2'),
-            Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Середа', callback_data: 'day_3'),
-            Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Четвер', callback_data: 'day_4'),
-            Telegram::Bot::Types::InlineKeyboardButton.new(text: "П'ятниця", callback_data: 'day_5'),
-          ]
+        buttons = [
+          Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Понеділок', callback_data: 'day_1'),
+          Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Вівторок', callback_data: 'day_2'),
+          Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Середа', callback_data: 'day_3'),
+          Telegram::Bot::Types::InlineKeyboardButton.new(text: 'Четвер', callback_data: 'day_4'),
+          Telegram::Bot::Types::InlineKeyboardButton.new(text: "П'ятниця", callback_data: 'day_5')
+        ]
 
-          Telegram::Bot::Types::InlineKeyboardMarkup.new(
-            inline_keyboard: buttons.each_slice(3).to_a
-          )
+        Telegram::Bot::Types::InlineKeyboardMarkup.new(
+          inline_keyboard: buttons.each_slice(3).to_a
+        )
       end
     end
   end

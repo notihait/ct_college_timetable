@@ -17,13 +17,13 @@ class ChangesController
 
     unless document
       user.update(state: nil)
-      @bot.api.send_message(chat_id: message.chat.id, text: "Файл не знайдено в повідомленні.")
+      @bot.api.send_message(chat_id: message.chat.id, text: 'Файл не знайдено в повідомленні.')
       return
     end
 
     unless document.file_name&.downcase&.end_with?('.docx')
       user.update(state: nil)
-      @bot.api.send_message(chat_id: message.chat.id, text: "Будь ласка, надішліть файл із замінами у форматі .docx.")
+      @bot.api.send_message(chat_id: message.chat.id, text: 'Будь ласка, надішліть файл із замінами у форматі .docx.')
       return
     end
 
@@ -39,11 +39,14 @@ class ChangesController
         return
       end
 
-      Dir.glob(File.join('storage', 'changes_*.docx')).each { |file| File.delete(file) rescue nil }
+      Dir.glob(File.join('storage', 'changes_*.docx')).each do |file|
+        File.delete(file)
+      rescue StandardError
+        nil
+      end
       file_path = file_info['result']['file_path']
       file_url = "https://api.telegram.org/file/bot#{@token}/#{file_path}"
       save_path = File.join('storage', "changes_#{Time.now.to_i}.docx")
-      
 
       URI.open(file_url) do |remote_file|
         File.open(save_path, 'wb') { |f| f.write(remote_file.read) }
@@ -66,9 +69,8 @@ class ChangesController
       File.write(MAIN_SCHEDULE_PATH, JSON.pretty_generate(merged_schedule))
 
       user.update(state: nil)
-      @bot.api.send_message(chat_id: message.chat.id, text: "Заміни збережено, оброблено та розклад оновлено.")
-
-    rescue => e
+      @bot.api.send_message(chat_id: message.chat.id, text: 'Заміни збережено, оброблено та розклад оновлено.')
+    rescue StandardError => e
       user.update(state: nil)
       @bot.api.send_message(chat_id: message.chat.id, text: "Помилка при обробці замін: #{e.message}")
     end

@@ -1,6 +1,5 @@
 class BasicTables < ActiveRecord::Migration[7.1]
   def change
-    
     create_table :users do |t|
       t.integer :telegram_id
       t.string :first_name

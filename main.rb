@@ -7,7 +7,7 @@ Dotenv.load
 
 require_relative 'core/telegram_bot'
 require_relative 'core/dispatcher'
-require_relative 'db/config'  # обязательно, чтобы подключить базу
+require_relative 'db/config' # обязательно, чтобы подключить базу
 
 puts "Token: #{ENV['TELEGRAM_TOKEN'].inspect}"
 token = ENV['TELEGRAM_TOKEN']

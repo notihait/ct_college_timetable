@@ -30,17 +30,17 @@ class Dispatcher
 
     @bot.api.send_message(
       chat_id: chat_id,
-      text: "Головне меню:",
+      text: 'Головне меню:',
       reply_markup: keyboard
     )
   end
 
-  def show_admin_menu(chat_id, telegram_id)
+  def show_admin_menu(chat_id, _telegram_id)
     keyboard = Core::Keyboards.admin_menu_keyboard
 
     @bot.api.send_message(
       chat_id: chat_id,
-      text: "Адмін-панель:",
+      text: 'Адмін-панель:',
       reply_markup: keyboard
     )
   end
@@ -49,12 +49,10 @@ class Dispatcher
     puts "Обробка повідомлення: #{message.text.inspect}"
 
     user = User.find_by(telegram_id: message.from.id)
-    unless user
-      user = User.create(
-        telegram_id: message.from.id,
-        first_name: message.from.first_name
-      )
-    end
+    user ||= User.create(
+      telegram_id: message.from.id,
+      first_name: message.from.first_name
+    )
 
     # Якщо отримали документ — обробляємо згідно стану користувача
     if message.document
@@ -71,18 +69,18 @@ class Dispatcher
     # Обробка текстових команд
     case message.text
     when 'Обрати групу'
-      groups = Group.all.to_a.sort_by{|g| g.group_name.split('-').last.to_i}
+      groups = Group.all.to_a.sort_by { |g| g.group_name.split('-').last.to_i }
       keyboard = Core::Keyboards.group_selection_keyboard(groups)
       @bot.api.send_message(
         chat_id: message.chat.id,
-        text: "🫂Оберіть групу:",
+        text: '🫂Оберіть групу:',
         reply_markup: keyboard
       )
 
     when 'Мій розклад'
       @bot.api.send_message(
         chat_id: message.chat.id,
-        text: "📅Оберіть день тижня:",
+        text: '📅Оберіть день тижня:',
         reply_markup: Core::Keyboards.days_keyboard
       )
       user.update(state: nil)
@@ -94,14 +92,14 @@ class Dispatcher
       if admin?(message.from.id)
         show_admin_menu(message.chat.id, message.from.id)
       else
-        @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
+        @bot.api.send_message(chat_id: message.chat.id, text: 'У вас немає доступу.')
       end
 
     when 'Додати групу'
       if admin?(message.from.id)
         @admin_controller.start_group_creation(message)
       else
-        @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
+        @bot.api.send_message(chat_id: message.chat.id, text: 'У вас немає доступу.')
       end
 
     when 'Імпорт груп з таблиці'
@@ -110,7 +108,7 @@ class Dispatcher
         count = controller.import_groups
         @bot.api.send_message(chat_id: message.chat.id, text: "Імпортовано #{count} груп.")
       else
-        @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
+        @bot.api.send_message(chat_id: message.chat.id, text: 'У вас немає доступу.')
       end
 
     when 'Список груп'
@@ -119,17 +117,17 @@ class Dispatcher
     when 'Додати заміни'
       if admin?(message.from.id)
         user.update(state: 'awaiting_changes_upload')
-        @bot.api.send_message(chat_id: message.chat.id, text: "Будь ласка, надішліть файл із замінами у форматі .docx.")
+        @bot.api.send_message(chat_id: message.chat.id, text: 'Будь ласка, надішліть файл із замінами у форматі .docx.')
       else
-        @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
+        @bot.api.send_message(chat_id: message.chat.id, text: 'У вас немає доступу.')
       end
 
     when 'Оновити розклад'
       if admin?(message.from.id)
         user.update(state: 'awaiting_schedule_upload')
-        @bot.api.send_message(chat_id: message.chat.id, text: "Будь ласка, надішліть файл у форматі .xlsx.")
+        @bot.api.send_message(chat_id: message.chat.id, text: 'Будь ласка, надішліть файл у форматі .xlsx.')
       else
-        @bot.api.send_message(chat_id: message.chat.id, text: "У вас немає доступу.")
+        @bot.api.send_message(chat_id: message.chat.id, text: 'У вас немає доступу.')
       end
 
     else
@@ -149,17 +147,17 @@ class Dispatcher
 
     case data
     when /^group_(\d+)$/
-      group_id = $1.to_i
+      group_id = ::Regexp.last_match(1).to_i
       group = Group.find_by(id: group_id)
       if group
         user.update(group_id: group_id) if user
         @bot.api.send_message(chat_id: chat_id, text: "Ви обрали групу #{group.group_name}")
       else
-        @bot.api.send_message(chat_id: chat_id, text: "Групу не знайдено.")
+        @bot.api.send_message(chat_id: chat_id, text: 'Групу не знайдено.')
       end
 
     when /^day_(\d+)$/
-      day_number = $1.to_i
+      day_number = ::Regexp.last_match(1).to_i
 
       unless user && user.group_id
         @bot.api.send_message(chat_id: chat_id, text: "Будь ласка, спочатку оберіть групу командою 'Обрати групу'.")
@@ -168,7 +166,7 @@ class Dispatcher
 
       group = Group.find_by(id: user.group_id)
       unless group
-        @bot.api.send_message(chat_id: chat_id, text: "Групу не знайдено, будь ласка, оберіть групу знову.")
+        @bot.api.send_message(chat_id: chat_id, text: 'Групу не знайдено, будь ласка, оберіть групу знову.')
         return
       end
 

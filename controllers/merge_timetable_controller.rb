@@ -4,59 +4,58 @@ class MergeTimetableController
     @main_schedule = deep_dup(main_schedule)
     @changes_schedule = changes_schedule[:groups]
     @day_of_the_week = changes_schedule[:day_of_the_week]
-    end
+  end
 
   # Головний метод, який робить злиття та повертає результат
-  
+
   def merge
-  changes_hash = if @changes_schedule.is_a?(Array)
-                   @changes_schedule.each_with_object({}) do |entry, h|
-                     group_name = entry['group'] || entry['name'] || entry.keys.first
-                     h[group_name] = entry
+    changes_hash = if @changes_schedule.is_a?(Array)
+                     @changes_schedule.each_with_object({}) do |entry, h|
+                       group_name = entry['group'] || entry['name'] || entry.keys.first
+                       h[group_name] = entry
+                     end
+                   else
+                     @changes_schedule
                    end
-                 else
-                   @changes_schedule
-                 end
 
-  changes_hash.each do |group, changes_data|
-    next unless @main_schedule.key?(group)
+    changes_hash.each do |group, changes_data|
+      next unless @main_schedule.key?(group)
 
-    if changes_data.is_a?(Array)
-      # Масив замін (наприклад: ["ДПА", "ДПА", ...])
-      main_days = @main_schedule[group]['days']
-      next if main_days.nil? || main_days.empty?
+      if changes_data.is_a?(Array)
+        # Масив замін (наприклад: ["ДПА", "ДПА", ...])
+        main_days = @main_schedule[group]['days']
+        next if main_days.nil? || main_days.empty?
 
-      # Проходимо по кожному дню (можна змінити на перший день, якщо потрібно)
-      main_day = main_days[@day_of_the_week]
-      lessons = main_day['lessons']
-      next unless lessons
-    
-      lessons.each_with_index do |lesson, idx|
-        next unless changes_data[idx]
-  
-        # Замінюємо всі предмети уроку на один предмет із changes_data
-        lesson['subjects'].each do |subject|
-        subject['subject'] = changes_data[idx]
+        # Проходимо по кожному дню (можна змінити на перший день, якщо потрібно)
+        main_day = main_days[@day_of_the_week]
+        lessons = main_day['lessons']
+        next unless lessons
+
+        lessons.each_with_index do |lesson, idx|
+          next unless changes_data[idx]
+
+          # Замінюємо всі предмети уроку на один предмет із changes_data
+          lesson['subjects'].each do |subject|
+            subject['subject'] = changes_data[idx]
+          end
         end
-      end
 
-    elsif changes_data.is_a?(Hash) && changes_data.key?('days')
-      # Оригінальна логіка для складної структури
-      changes_days = changes_data['days']
-      changes_days.each do |change_day|
-        day_name = change_day['name']
-        main_day = @main_schedule[group]['days'].find { |d| d['name'] == day_name }
-        next unless main_day
+      elsif changes_data.is_a?(Hash) && changes_data.key?('days')
+        # Оригінальна логіка для складної структури
+        changes_days = changes_data['days']
+        changes_days.each do |change_day|
+          day_name = change_day['name']
+          main_day = @main_schedule[group]['days'].find { |d| d['name'] == day_name }
+          next unless main_day
 
-        change_day['lessons'].each do |change_lesson|
-          lesson_num = change_lesson['lesson']
-          main_lesson = main_day['lessons'].find { |l| l['lesson'] == lesson_num }
-          next unless main_lesson
+          change_day['lessons'].each do |change_lesson|
+            lesson_num = change_lesson['lesson']
+            main_lesson = main_day['lessons'].find { |l| l['lesson'] == lesson_num }
+            next unless main_lesson
 
-          change_lesson['subjects'].each_with_index do |change_subject, idx|
-            if ['', '-'].include?(change_subject['subject'])
-              next
-            else
+            change_lesson['subjects'].each_with_index do |change_subject, idx|
+              next if ['', '-'].include?(change_subject['subject'])
+
               if main_lesson['subjects'][idx]
                 main_lesson['subjects'][idx] = change_subject
               else
@@ -65,19 +64,14 @@ class MergeTimetableController
             end
           end
         end
+      else
+        # Формат незрозумілий — пропускаємо
+        next
       end
-    else
-      # Формат незрозумілий — пропускаємо
-      next
     end
+
+    @main_schedule
   end
-
-  @main_schedule
-end
-
-
-
-
 
   private
 
